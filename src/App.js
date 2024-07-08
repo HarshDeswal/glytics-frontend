@@ -21,7 +21,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-    const response = await axios.post('https://web-production-3b03.up.railway.app/upload_csv/', formData, {
+    const response = await axios.post('http://127.0.0.1:8000/upload_csv/', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
         'Authorization': `${API_TOKEN}`
@@ -46,7 +46,7 @@ function App() {
 
   const queryData = async () => {
     try{
-    const response = await axios.get('https://web-production-3b03.up.railway.app/query/', {
+    const response = await axios.get('http://127.0.0.1:8000/query/', {
       headers: {
         'Authorization': `${API_TOKEN}`
       },
