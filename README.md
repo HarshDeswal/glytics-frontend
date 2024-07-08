@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Glytics - Analytics for Games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/HarshDeswal/glytics-frontend/assets/94471009/24aa458b-7fc7-49fe-84fc-457dcb657b19)
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
